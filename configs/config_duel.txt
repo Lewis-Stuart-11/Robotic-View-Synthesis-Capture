@@ -1,0 +1,27 @@
+log_dir = "/home/psxls7/catkin_ws/src/Robotic-View-Synthesis-Capture/logs"
+
+experiment_name = config_duel_1
+save_fig = false
+    
+main_obj_position = [0.0, 0.0, 0.1]
+main_obj_size = [0.35, 0.35, 0.5]
+
+auto_add_obj_stand = true
+
+aabb = [-1.0, 1.0, -1.0, 1.0, -0.5, 1.0]
+
+rings = 22
+sectors = 22
+capture_radius = 0.75
+
+num_move_attempts = 2
+
+obj_stand_thickness = 0.3
+
+robot_settings_path = "/home/psxls7/catkin_ws/src/robotic_view_capture/view_capture_scripts/configs/robot_setups/duel_parallel.json"
+
+visualise = true
+
+discard_img_capturing = true
+
+continue_experiment = true

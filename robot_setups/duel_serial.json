@@ -1,0 +1,21 @@
+[
+	{
+		"name": "arm1",
+		"move_group": "arm1_manipulator",
+		"camera_transform": "arm1_camera_predicted_colour_lens",
+		"camera_topic": "arm1_camera",
+		"base_transform": "arm1_base_link",
+		"starting_position": [0.3, 0.0, 1.5],
+		"camera_topic_head": "arm1_camera",
+		"camera_properties_file_path": "/home/psxls7/catkin_ws/src/robotic_view_capture/view_capture_scripts/configs/cameras.txt"
+	},
+	{
+		"name": "arm2",
+		"move_group": "arm2_manipulator",
+		"camera_transform": "arm2_camera_predicted_colour_lens",
+		"camera_topic": "arm2_camera",
+		"base_transform": "arm2_base_link",
+		"starting_position": [1.0, 0.0, 1.5],
+		"camera_properties_file_path": "/home/psxls7/catkin_ws/src/robotic_view_capture/view_capture_scripts/configs/cameras.txt"
+	}
+]
